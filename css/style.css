@@ -1,189 +1,976 @@
-@font-face {
-  font-family: "NoticiaText";
-  font-weight: 700;
-  font-style: normal;
-  src: local(''),
-       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff'), /* Modern browsers */
-       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff2'); /* Modern browsers */
-}
-
-
-@font-face {
-  font-family: "NoticiaText";
-  font-weight: 300;
-  font-style: normal;
-  src: local(''),
-       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff'), /* Modern browsers */
-       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff2'); /* Modern browsers */
-}
-
-* {
-  padding: 1;
-  margin: 1;
-  box-sizing: border-box;
-}
-
-body {
-  font-family : "NoticiaText";
-  margin : 0px;
-}
-
-li { 
-  list-style : none;
-  display : inline-block;
-}
-
-ul li {
-  display : inline-block;
-  margin : 20px;
-}
-
-ul li:hover { cursor : pointer; }
-
-a {
-  text-decoration : none;
-  color : blue;
-}
-
-p {
-  text-indent: 5%;
-  margin : 2px;
-}
-
-.about { margin : 30px; }
-      
-.text1 {
-  margin : 5px;
-  width : 550px;
-  position : center;
-  left : 40px;
-  top : 50px;
-}
-
-.bio {
-  margin : 5px;
-  width : 550px;
-  position : center;
-  left : 40px;
-  top : 50px;
-}
-
-.text2 {
-  margin : 5px;
-  width : 550px;
-  position : center;
-  left : 40px;
-  top : 50px;
-}
-
-.poems {
-  margin-left : 140px;
-  width : 550px;
-  position : center;
-  align: left;
-  left : 20px;
-  top : 30px;
-}
-
-pre {
-  font-family: "NoticiaText", sans-serif;
-  font-size: 16px;
-  margin : 5px;
-  width : 550px;
-  position : left;
-  left : 40px;
-  top : 50px;
-   }
-
-
-image {
-  max-width: 25%;
-  max-height:15%;
-  float: left;
-}
-
-.wrapper-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-:root {
-  --color-primary: blue ;
-  --color-secondary: rgb(0, 251, 255);
-  --background: white;
-  --text: black;
-}
-
-
-::selection {
-  background-color: var(--color-primary);
-  color: var(--background);
-  -webkit-text-fill-color: var(--background);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  display: grid;
-  place-content: center;
-  gap: 4vh;
-  min-height: 100vh;
-  width: min(60ch, 100vw - 2rem);
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  background-color: var(--background);
-  color: var(--text);
-}
-
-h1 {
-  color: var(--color-primary);
-}
-
-h2 {
-  color: var(--color-primary);
-}
-
-h3 {
-  color: var(--color-primary);
-}
-
-blockquote {
-  border-left: 5px solid;
-  margin-left: 0;
-  padding: 1rem 0 1rem 2rem;
-  font-size: 1.5rem;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(
-    35deg,
-    var(--color-primary),
-    var(--color-secondary)
-  );
-
-
-p {
-    margin: 0;
-  }
+<!DOCTYPE html>
+<html> 
+<head>
+  <title>Rebecca Close website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.6">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Rebecca Close website about poetry, art and research.">
+  <meta name="robots" content="Rebecca Close website poetry, art and research.">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
 
 
-epigraph {
-    font-family: "NoticiaText", sans-serif;
-    font-size: 12px;
-    margin : 0px;
-    width : 550px;
-    position : right;
-    left : 0px;
-    top : 0px;
-     }
+
+  <body>
+  <div align = "center">
+    <nav class = "menu">
+      <ul>
+        <li class = "li-component"><a href = "./bio.html">BIO</a></li>
+        <li class = "li-component"><a href = "./poetry.html">POETRY</a></li>
+        <li class = "li-component"><a href = "./artresearch.html">ART & RESEARCH</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class = "container" align = "center">         
+    <div class = "header" align = "center">
+      <h1>POETRY BOOKS</h1>
+    
+
+<article class="text2">
+  <h1>Réplica (2022)</h1>
+    <a href="https://canal.bigcartel.com/product/replica-by-rebecca-close"><img src='./img/Replica cover.png' alt='book cover'
+      width="390" 
+      height="500"></a>
+      <blockquote>
+        <p><em>Réplica is stunning. It is fresh, endlessly surprising, and lyrically exhilarating. The power of its invention produces an excitement for the listener and reader akin to uncovering a world of possibility in language and images. These are such powerful poems: controlled yet white-hot with verbal energy.</em>
+          <br><br>—David Morley
+          <br><br><a href='https://canal.bigcartel.com/product/replica-by-rebecca-close'>Buy from Publisher (Canal Press)</a></p>
+      </blockquote>
+      </article>
+
+
+<article class="text2">
+  <h1>Valid, Virtual, Vegetable Reality (2018)</h1>
+  <a href="https://blackspringpressgroup.com/products/valid-virtual-vegetable-reality-by-rebecca-close"><img src='./img/VVV_cover.jpg' alt='book cover'
+    width="340" 
+    height="500"></a>
+    <br><br>
+  <p>Winner of the Melita Hume Prize</p>
+  <blockquote>
+    <p><em>This is a distinctive, urban voice, which holds on to speaking and feeling throughout states of fragmentariness. Through the fractures in its language, perceptions, and experiences, things still truly matter. This is evidenced in the habit of thorough delicate observation that translates into the ability suddenly, and aptly, to evoke a pastel dianthus or a satellite signal, or to draw unexpectedly on earlier, traditional forms without falling under their yoke. It is evidenced, too, in the engagement with ‘secondary worlds’ of film and other visual art, not ekphrastically, but as part of processing everything: the various figures, situations, scenes and would-be-meanings cracking with violent variety, unassimilable chasms in friendship, unnameable proximities, and tender moments
+      of weird connexion. Even if you have not lived lives resembling those depicted here, whether their worlds of work or experimentation, you know that these lives are aspects of yours. As the Melita Hume Prize is for a first full-length collection, it seems good to award it to a book which made reading feel like a fresh adventure.</em> 
+    <br><br>—Vahni Capildeo
+    <br><br><a href='https://blackspringpressgroup.com/products/valid-virtual-vegetable-reality-by-rebecca-close'>Buy from Publisher (Black Spring Press Group)</a></p>
+</blockquote>
+  </article>
+
+
+  <div class = "container" align = "center">         
+    <div class = "header" align = "center">
+      <h1>IN MAGAZINES, <br>ANTHOLOGIES & JOURNALS</h1>
+    </div>
+  </div>
+
+
+    <div class = "container">
+    <div align = "left" class = "poems">
+
+<pre>
+
+  I lifted up my eyes and looked 
+  – behold, queer plankton on YouTube.
+    The sea angel crawls and glides,
+      moving at the mercy of the changing currents.
+  (Now I’m ready to close my eyes) 
+    It dodges the lines of predators,
+      knows where the edge of the collection jar is. 
+  (Now I’m ready to close my eyes C’mon)
+    Its body is a beryl,
+      its face a strike of lightening.
+  (I want you here)
+    Its limbs gleam burning bronze,
+      its limbs are fused as a wing 
+  (Now I’m ready to close my mind. 
+  Now I’m ready to feel your hand.)
+    Its delicate encasing is tightly coiled – 
+  (I lose my heart on the burning sands)
+    when the chemistry shifts it lets its body go.
+
+  (C’mon)
+    It swims still
+
+  Am I a type?
+  Can you find me in the smell of the sea?
+  In the forming sediments? Am I a common shape?
+
+
+                                                                Published in Ambit, 
+                                                                Issue 229 (2017) </pre>
+
+<br><br>
+
+<strong>Possible emotional anatomy of the so-called declining</strong>
+
+<pre>
+
+  I try to relate to this conversation 
+  but directly observing
+  the dead arm means touching it.
+
+          monsieur bayard invented the camera before monsieur daguerre 
+          but failed to get funding from the government.
+          One of the earliest photographs is his
+        <em>Self-portrait of the Photographer as a Drowning Man</em> (1840).
+
+          I do not think I am a symptom
+          though the eye has tried to kill me,
+          I fight with him in bed. I am only interested
+          in my emotions in as much as I can find them online
+          in thesauruses. The places to be
+          disappointed or euphoric. But no one likes to be reminded 
+
+  or surprised. Things spill 
+  from your pocket, arrive 
+  in the room before you do. 
+  People stoop over
+
+  for fear of contamination. Chains of associations: 
+  self-portrait of a drowning man; ophelia; hair.
+
+          I saw an exhibition about the history of the asylum.
+          Fell on my knees, demanded there were more labels.
+          It was such a mess. If there is a man he operates as a cleaning agent.
+
+  You get more money. But what is a man? 
+          The skeleton that prays.
+
+          The skeleton that says 
+          sorry
+
+  for knowing what you know through touching. A word
+  touching you is an arm. Don’t try to read the invisible
+  through the visible. Don’t turn on the nose.
+  What frames the eyebrow but the actual eye? david beckham’s haircut
+
+          gets up on stage to apologise to all haircuts that came before it. 
+          Someone was disappointed
+          by family then euphorically made a new one,
+
+  this is how we do it. kurt cobain’s hair
+          his distribution of lesbian looks. Properly citing 
+          Italian men from the movies, 
+          I put hair gel in my hair.
+
+          My wife loved it. Strands of hair
+          seen through a microscope
+          turn up tiny passports to illness. sylvia plath proved she was a man
+
+  when she killed her wife. But she was the wife. 
+  usa, britain, argentina. Divided.
+  Right now, a mouse punches a cat.
+
+  That’s how unnerving haircuts can be.
+          The secret of success is always working with the same people. 
+          And I’ve tried.
+          I bring a photograph to the hairdressers. 
+
+
+
+                                                                            Published in Ambit, 
+                                                                            Issue 229 (2017)
+</pre>
+
+<br><br>
+<strong>Valid, Virtual, Vegetable Reality </strong>
+
+  <pre>
+
+                                          my 
+                                      here / yes /
+                              my behaving luck /
+                        my legally blinding / hanging on
+                  to its job / thus department meetings and /
+              this is not a matter of choice / Donna, Marshall & Roy
+    has been / attempted merger of Ana / all the stuff in her desk is gone / today 
+  suits feelings / and I’ve got some / I’ve veered & aggressed / when I learnt how / I’m
+  gonna / O / my team were subjected to downsizing / our personalities are children
+  / who know for sure now / when he slammed the car door / that Dad is mad
+
+
+                                                                            Published in Ambit, 
+                                                                            Issue 229 (2017)
+</pre>
+
+<br><br>
+<strong>Sketch for 'X' as Excess</strong>
+
+<pre>
+
+        Size (the realm of the present).
+        Content (the territory around which we are x). 
+        Colour (blue).
+  Bring up the lagoon we walked around.
+
+  Memory: I can’t remember what time of year it was.
+
+    Epistemic territory: water trapped in a basin. 
+  We were in excess of it, climbing cliffs.
+
+  <em>I thought we were going to die.</em>
+        Love:
+        something you walk around. 
+        The blue lagoon.
+
+  Frame rate: 4000 (so fast we can’t see it’s not a movie). 
+        Holiday pics:
+
+        upload them in an array;
+
+        a folder marked ‘location data’.
+
+  The seasons
+    are not the universe
+      they are in the universe.      
+
+  Find spring as (x), where ‘x’ is being born. 
+    Find summer (growing); autumn (ageing);
+      winter (dying).
+
+  A revolution: the seasons trapped in a basin.
+
+    Take them out of poetry. 
+    Put them in a museum.
+
+  The volcano shakes. 
+  Background becomes foreground.
+    Time rises
+
+    as steam; an ellipse.
+
+
+                                                                            Published in Ambit, 
+                                                                            Issue 229 (2017)
+</pre>
+<br><br>
+<strong>Epidemiological-Tropical Homesick </strong>
+<pre>
+<epigraph>
+            <em>Tropical thinking is obsessed with proximity, it spatializes,<br> 
+            it maps [...]. Epidemiological thinking is obsessed with transfer,<br> 
+            it temporalizes, it simulates [...].</em> Cindy Patton, <em>Globalizing Aids</em><br>
+                   </epigraph>  </pre>             
+<pre>
+  A lumberjack shirt dries on the clothesline 
+  between houses in the good neighbourhood. 
+  My body is the good neighbourhood. Brother,
+
+  don’t jump. Mum’s coming, I’m calling her.
+  Come down from the edge
+  of chemical transfusions of the exteriorising particle.
+
+  We push our firm bodies up against theirs
+  to get firmer. We go down to the kebab shop 
+  to watch the fight in my mouth. In my mouth
+
+  we are the last people up and we live here. 
+  A hand touches the sun through a skylight, 
+  brushing a wind chime of weathered glass.
+
+  Whose house, whose h-ou-se is this? It’s Thursday. 
+  I put on a lumberjack shirt. Take it off. Hang it up. 
+  Take it down. Put it on. It’s raining worlds.
+
+  What words? What us? The sea is drunk
+  with his green beard. There is salt in the sea, salt on my lips. 
+  I drink salty tea. Whose party is this?
+
+  Being here or not being here takes such imperium over us. 
+  The effectiveness of the campaign is in making us think
+  blood is water and water is blood. The importance of the road
+
+  is the density of traffic in search of gardens. Brother, 
+  we are blooming into something in a garden, 
+  bordered by hedges that meet in lines that make a grid
+
+  that the searchlights show up at night. A healthy mind 
+  is a body in transit, wading through provincial swamps, 
+  skyscraper fogs, sparkling sandwiches,
+
+  looking for proof.
+        
+                                                                                Published in Magma, 
+                                                                                Issue 68 (2017)
+</pre> 
+
+<br><br>
+
+<strong>I’ve Taken It All in and I’m Trying to Keep it Down Without it Coming Out At Once</strong>
+<pre>
+
+  Package tape taping barrel edge. 
+  Head touches lid. Soggy packing tape
+  
+  doesn’t stick the lid down. Messages 
+  decanted into envelopes. Lick the edge
+  
+  down to send it. Spit swelling, spurting 
+  over microphone, through the tape.
+  
+  One in every home. Towel dripping speech 
+  shaping audience. The most complicated organ
+  
+  is the audience. Three parts: rural, suburb, inner. 
+  Licking, beep beep in my hands. Kissing you
+  
+  in the street. Traffic of saliva through the town 
+  transforms the width of ducts:
+  
+  tear, tube, auditory. Hands in my water tank, 
+  sealing it. Love’s a dangerous word.
+  
+  The electrical variation of what I’m trying to say: 
+  three small bones. Everything drilling
+  
+  in the city. Couldn’t get back to the flat in time, 
+  police were there. Door boarded up
+  
+  with wooden planks. ‘Timing’ says cockroach
+  on the curb. Rain comes unplanned, in patterns.
   
 
+                                                                                Published in Magma, 
+                                                                                Issue 68 (2017)
+</pre>
+<br><br>
+<strong>First Meeting of the Artist Union in Barcelona</strong>
+<pre>
+
+  little red ball of taste accompanies espresso 
+  callous raspberry served, it’s fake
+  please dip for taste
+  are you kidding me I kick the stirrups 
+  gallop through the rococo style restaurant 
+  giving diners the finger, stealing lemons 
+  from their toothpicks for my sippy cup
+  it began when we found the shale tooth 
+  I can’t tell you exactly where
+  definitely at the curve of the road 
+  where we uncovered the clue
+  dusted off the earth
+  with our little dig brush
+  proof we would need wigs
+  proof oil is moving backwards (first time then being)
+  we picked out blue dresses
+  to baffle the surveillance system
+  stumbled down la rambla
+  spreading rumours about our barrenness
+  and how we were depressed
+  (we sort of were) we plucked our old jeans off
+  found something new
+  a coin in my equestrian boot
+  a pussy in my shoe
+  little eyes like twenty-five imbued in the wallpaper
+  we’re watching you
+  with our fifty limbs we’re coming for your air miles
+  your furniture will fund our movement
+  (we had wigs on, which enabled us to ascend to positions of great power)
+  I don’t know compost from art
+  but I know what money is and what the weather feels like
+  I bite hard on my mouth guard, start spinning
+  I don’t want to wait by working I don’t want work to be wanting
+  I want to get paid for everything
+  every time I move towards this paranormal radio sound like waaaaaaaaaaaa 
+  wuuuuhhhhhhhhhhhh whooooooooooo it is me
+  who is delivering your cucumber by drone, delivering
+  your cucumber by self-driving car
+  I want to get paid for that
+  searching for the address of where you are on maps 
+  you find a list of things you have done since 2009 
+  written by you it’s only 30% true
+  when we speak on skype our bodies are our voices a person is a number
+  of sparkles going out quicker or slower, you are 
+  everywhere
+  green, red, gold                blue fading into dark
+  I am holding you
+  colours of the evening
+  colours of Christmas on TV
+  our souls are the TV no one watches anymore and 
+  Christmas is the art
+  sometimes the news is on
+  sometimes you watch and watch and watch me
+    
+
+                                                                                Published in Datableedzine, 
+                                                                                Issue 8 (2018)
+</pre>
+<br><br>
+<strong>self-portrait as a microphone</strong>
+<pre>
+
+  sitting at a table
+  waiting for the flogging 
+  what is the difference 
+  between remaining calm 
+  and functioning at a basic
+          level
+  can take most of it
+  from gunshots to dialogue have no sense
+  of volume
+  but a thousand eyes
+  for classifying
+  how intensely I feel things
+  sweet
+  scared
+  these are things that can be measured also the timbre
+  textures that are familiar or unknown
+
+                                                                                Published in Unicef Next Gen 
+                                                                                Words by Human (2020)
+</pre>
+<br><br>
+<strong>London Evening News Gazes at Sappho Magazine 
+  on the Eve of the ‘Ban the Babies’ Exposé (4th January 1978)</strong>
+<pre>
+
+  Humbled we are to your hands skilled in
+  raising a storm on Lower Belgrave Street
+  your networks your inventiveness your style
+  bars a thousand harms and lengthens life.
+  We hold your genius at the centre of our
+  Fleet Street culture, merely cultural is our love.
+  Do not be distracted by television eating away
+  at our market share, the persistence of our
+  financial struggles, how the nation loves pictures
+  but pays less every day. The Ordinary Voter will
+  identify with you as your children are taken away
+  leaving us free in the double sense to suckle
+  for our lives are in danger too. Your struggles
+  are the mirror we hold up to the lovely torrid changes
+  in our own sexualities, things we feel but cannot name.
+  The sweet beauty of your face secures our switch
+  from broadsheet to tabloid. The placing of your sex
+  in our hearts permits our assisted reproduction of
+  Maureen the Mouth and something called the
+  Ordinary Voter. You are our breathing feeling nut
+  and bolt queer. We paint you even as the waning sedges
+  play in the wind you beguilèd and surprised.
+  We fetch you straight as an Echo by a running brook
+  a Circe in purple robes or a Diana roaming
+  thorny woods scratched legs one that bleeds.
+  Curst will your mortal ears be to endure the din
+  of our living situations the real voice of this exposé.
+ 
+                                                                                Published in Stickfingers 
+                                                                                FDBNHLLLTTFPARODY Ed. Evelyn Wh-ell (2022)
+</pre>
+<br><br>
+<strong>Tony Blair Gazes at Rudy Giuliani on the Eve 
+  of the Creation of the Mayor of London
+  and Has a Dream About the Year 2018 (4th May 2000)
+</strong>
+<pre>
+
+  Your face flashes up I practically faint Cherrie fanning me,
+  my brow the screen across which your charm flickers,
+  my brain a balloon twisted in the form of your buff jerkin.
+  I want it pressed to my thigh as I stoop to ordain
+  Noel Gallagher’s parker jacket. Last night I dreamt that
+  free speech advocates petitioned to fly a balloon of the mayor
+  in a bikini over the city. The dream mayor said ‘yes’ as in my dream
+  free speech meant ‘the right to circulate metalized plastics’.
+  In my dream the rubber and latex that once belonged to queers,
+  who know all about the plasticity of sex and what it means to parody
+  the patina of plunder, all those glitters now belonged to the far right.
+  In my dream ‘queerness’ meant the same as ‘democracy’:
+  the good government of being governed as the sea is 
+  by micro-plastics under whose countenance pillage continues.
+  In my dream ‘democracy’ meant the right of the far right to fly
+  inflatables over the city; the right of the left to dive deflated
+  into a car park; the right of the people to pick up scraps of fallen
+  polychloroprene to make our own fuck dolls. I get enough together
+  to make two, one of me and one of you. Me in a helmet holding a trident 
+  my Britannia heart screams you in a cape a cigar in your mouth
+  pinstripes down run my town if not two have you been to Southampton, 
+  both my towns stand up for you the little hairs around them shivering.
+
+                                                                                  Published in Stickfingers 
+                                                                                  FDBNHLLLTTFPARODY Ed. Evelyn Wh-ell (2022)
+</pre>
+<br><br>
+<strong>The City of London Corporation Gazes
+  at Red Swamp Crawfish On the Eve
+  of A Formal Warning Against Swimming Nude
+  in the Men’s Ponds (20th September 2012)
+  </strong>
+  <pre>
+
+    As the cat has its shit-box filled with sand the ox its bow
+    the horse its curb so we have our desires our ink.
+    I paint the prospect red a cuckoo for every word of fear
+    a cuckoo suspect to the straight ear. The dorsal surface
+    and elongated claws of cruisers mock married men.
+    The long swimmeret extending is a secret no one knows about
+    a personal thing. I’ve got to go somewhere & chill out.
+    I admit I am here for sex but I am astonished that a crab
+    as famous as this would consider these ponds,
+    where I swim nude apart from my blue fur-trimmed robe,
+    always escorted by my ward beadle, never distracted
+    from supervising the people’s link to this land. I don’t even like
+    the crab I didn’t even recognise him immediately.
+    I was busy smearing a tonne of sex-related waste
+    across the press while promising to spend £40,000
+    to wipe their back pages clean. What a smooth triangular face
+    tapering behind without a central keel, having no spine
+    makes this uneasy truce creamy. This crab looks red
+    ‘you’re not totally English, are you?’ I should nip this
+    in the bud, the crab nibbles my toes then grips and snags.
+    A cuckoo on every tree my nose rubbed raw and red.
+    ‘It is highly dangerous at 2a.m the threat of these killer fish’
+    I trumpet ‘endangers swimming the milk comes home frozen
+    in the pail the blood be nipped the ways be foul & roasted crabs
+    hiss in the bowl’ The words are harsh you’ve got to have faith
+    I’m looking older now I’m letting go.
+    
+                                                                                  Published in Bath Magg, 
+                                                                                  Issue 10 (2022)
+</pre>
+<br><br>
+<strong>The Procedure of a Feeling</strong>
+<pre>
+
+    because it was a full-throated ease
+    omitting no opportunity to present
+    just because it has been
+    the folds of the way
+    a four nookèd track
+    you have to say ‘snap’
+    at the right time
+    study and contention
+    harmonious inflections
+    time repeated its four qualities:
+    attention, erasure, drainage, the breath
+    a hare writhed, a horse flung, a crocodile licked
+    emptiness dulled the opiates dry
+    what divides each note that way?
+    what song of shorter faster ones?
+    the fifth quality: the word from which we get ‘consent’
+    sentire meaning ‘a feeling’
+    body be my teacher
+    body teach me
+    so ashamed how the body might do it better
+    we must learn from the body
+    the body is ancient news
+    so beautiful and desperate everyone writing to the body
+    I sat with my body
+    made fun of it
+    no body has written as good as me
+    I don’t care if you like it
+    (I could care for you)
+    I don’t give a shit what is commended
+    (you could care for me)
+    the poem accumulating sweetness answered me:
+    thousands of people in the English speaking world
+    had read hundreds of poems about nightingales
+    but had never actually heard one sing before
+    they began to evoke poems
+    buying vinyl records of birdsong
+    the human the human
+    how it chirps on the moon
+    that we might find it by a bird
+    with the code for its own demise
+    beauty and desperation (the errors of genre)
+    send this on or die (chain letters)
+    people love watching cooking programs
+    programs about redecorating your living room
+    how to get the best mortgage
+    we want to know about process
+    how is it done? we want to see change
+    cooking programs as the successful bending of the system
+    to the creative will of the people
+    I enjoyed cooking programs during the most alienated period of my life
+    I’d watch the instruments laid out
+    the sounds they make the clarity of use
+    the blender the fork the knife
+    the garlic sliced
+    the fire taking up combustible gas
+    the butter melting the spices pinched
+    their powers
+    so powerful
+    zhummmmm pitter pitter shpahhhhhhh
+    zzzzzz I turned to the screen
+    darkling I listened
+    totally surprised by this change
+    my delight in the cooking program
+    ‘You are quite aware of the distance between the cooking program and feeling
+    something. You nonetheless insist on the cooking program’
+    a name
+    that witching face
+    unbidden from the wood
+    like encountering an interface so exquisite you can’t believe it’s not real
+    although you also know on some deep level
+    it is the realest thing you’ve seen in a while
+    I placed the locket on the desk
+    the desk on the wall the wall on the house the house on the floor
+    each object rose from its location
+    the biggest moon in eight long years
+    the warmest February ever recorded
+    skills multiplied
+    my face fell apart my hands were left
+    I pushed them against the shore
+    smoothed the edges died to think
+    all the chatter left my mind
+    I didn’t even notice it leave
+    I remembered parts of me
+    behind the knee below the sun
+    the fingertip
+    the mouth of a slender glass water bottle
+    light fidgeted
+    summer crawled under a rock
+    bubbles winked at the stream’s brim
+    the river’s mouth stained white
+    energy cracked through the chimney
+    Sant Adrià’s thermal energy plant
+    sounds like a man banging an anvil close to me
+    when people are not being brave
+    when the fragmented day
+    when work inflames
+    when a lack of work looms
+    when the cleaning the cleaning
+    I whisper lines of poems to get to sleep
+    bring summer in
+    I was in a heavy mood
+    worrying about how to get everyone I love
+    a visa
+    confusing that with what I want
+    and I was alone
+    which is really a form of social isolation
+    I talked to friends
+    their advice was good like ‘ask for concrete things that can be accomplished
+    bearing in mind time’
+    rocks bowed down to the sand
+    the ramble of clouds the tram ride
+    shadows urged the sea to roll
+    an outlook cracked
+    the books on the bookshelf were fine
+    the sounds of the kitchen were kind
+    the kids in the classroom wondered
+    the mujeres, lesbianas y trans did kung fu
+    the institutions held meetings
+    where all the words were attentive
+    all attention was desired
+    all touch was petitioned
+    all obligations were respectful of our time
+    if this poem’s not that good it’s not my fault
+    it is the films of Barbara Hammer’s fault
+    or John Clare’s The Progress of Rhyme’s fault
+    it is the iron in the clay’s fault
+    the chalk the water the humidity
+    if this poem is weak you can’t blame me
+    in the middle of the night I replied to a member of the audience
+    who left the cinema angrily in the middle of Barbara Hammer’s
+    A Horse is Not a Metaphor
+    the artist was sick with ovarian cancer
+    her horse got sick at the same time also cancer I think
+    the footage suggests they accompanied each other
+    through treatment and recovery
+    the horse’s eye
+    they get better together to ominous cello music
+    close ups galloping hospital beds bracelets
+    stroking wading in the river
+    the strength of their muscles
+    the conditions of life of a domesticated horse
+    parallel the human experience of sickness
+    of being at the mercy of an infinite number of checks
+    illness and health are blurred
+    a horse is not a metaphor
+    because the artist asks herself:
+    what am I going through?
+    which becomes what are you going through?
+    but not what are ‘we’ going through
+    which is why it is not a metaphor
+    nothing is transferred over to anywhere else
+    the man had muttered ‘amateur’
+    the next day in the protest my banner read: 
+    ‘I have learnt the way of looking by heart
+    but I can also read the films of Barbara Hammer (thank you goodnight etc.)’
+    I am connected to an infinite number of things
+    in anger, constraint, fear and movement
+    surfaces are the essence of what I’m talking about
+    without words
+    I made all the surfaces mine
+    got into the logic of the surface and started organising
+    a recycling bin here a desk there
+    moved all my loose files into one folder
+    I took off my top
+    I like being alone
+    when I cried on my route many times
+    when I have tried to cry but tears don’t come
+    I say is this crying a connector or a blocker?
+    sometimes crying has the function of avoiding something you need to get on with 
+    (a blocker)
+    suddenly I was behind the cry
+    in a room called bedsit
+    before I was born
+    my question frozen out to sea
+    my question escaped me
+    surrounded by silence small bits of work
+    we’ll help you
+    really? I have always wanted a teacher
+    I don’t have a style or it isn’t independent
+    I don’t have a single skill defined
+    it doesn’t matter you can have fame now
+    like setting out to tick off jobs
+    but finding the whole day lost
+    so my poem was distributed
+    despite the lack of garden care
+    stories of family where no-one was
+    I found my way back to poetry
+    hope turned on zoooooommmm dahhhhhh
+    there it is
+    still mine
+    I had a few friends to guide me through ambition
+    at first I would hide
+    thinking I had to choose between poetry and life
+    but there were books inside my house
+    my mum liked to read
+    so much she read a book a week
+    she was always chatting to me
+    she wanted to know what I thought about things
+    everything else was cordoned off
+    the rights of poets and nothing to me
+    a title I still feel ambivalent about
+    I have regretted showing it around
+    where pictures promised of the future’s powers
+    and the past’s magic
+    I felt excluded from this image
+    I went on a march and thought again
+    in spite of everything I still do this
+    sound poured into every shallow
+    deep winds organised the sea’s greens
+    an attitude flooded the stretch
+    no matter what these words sound like
+    they come from my chest
+    my heart totally plugged in right now
+    talent swelled
+    it was our ancestors who listened and who we loved
+    and who we deleted when they became
+    anthem, courtship or group password
+    let them push and push while I push on yours
+    you have to assume this poem exists
+    because of all the parents I have parented
+    and all the parents I’ve had
+    the number is finite (the body’s duration)
+    the possibility is infinite (the body’s durability)
+    not consuming exactly
+    but among its stuff and channels
+    I laid around lazily
+    without a sense of loyalty
+    loving partners, friends and strangers
+    pulling the network close to me
+    committed to its confidence
+    knowledge moved to the centre of my stare
+    visible in my stormy mood
+    how I’d look just beyond you
+    even my enemies couldn’t distract me
+    I still worshipped this stuff
+    fighting for indifference to be discontinued
+    that was my fight when I was young
+    I was just being born when I was aggregated
+    the curse of unfeeling
+    who was that who turned its eye and replied
+    it was warm when it was cold
+    I was creating it
+    I felt so much love for all devices
+    I was reckoning with every letter on my keyboard
+    I really loved each one
+    now everything that is happening online
+    behind every family a locket
+    beneath every face a frozen lake
+    a loved one’s eye a child’s eye
+    painted on the surface of an elephant’s tusk
+    after Albert died Queen Victoria wore 
+    a locket around her neck
+    a photograph of him on one side
+    a lock of his hair on the other
+    on her wrist she wore eight lockets
+    a lock of hair from the heads 
+    of each of her eight living children
+    lockets were also given to women 
+    forced to leave their children 
+    at foundling hospitals one half used 
+    to identify the child the other half used 
+    to identify the mother who’d have to present it 
+    to get her child back sentiment 
+    is for some people identification for others 
+    I still have the right to feel
+    I can still speak as well as the greatest men
+    the elephant begat your royalty
+    I feel much better every time I say that
+    thank god for electricity 
+    I created my own electricity for my thoughts and I kept going
+    it’s like when you turn your phone on I get ready
+    zzzzoooom dahhhhhh
+    by morning things get difficult
+    updates yourself yourself the audience
+    I started to get more work
+    that’s when I really appreciated friends
+    as I needed less I needed them
+    when unburnt feelings stood before me
+    the heaviest rain a hail storm
+    I felt like the roof
+    beauty smiled at me
+    friendship the paycheck
+    as soon as I thought it there she was I even loved her name
+    I wrote poems for her
+    my ambition turned to her
+    the only opinion that existed was hers
+    but obsession tried to hoist from love
+    something
+    all the qualities I liked I couldn’t pick for me
+    it took a long time to get
+    that love has nothing to do
+    with knowing everything
+    I left her alone so many people have 
+    mistaken love for fame
+    but they were wrong about the economy
+    every self-cohering line
+    all narration love afforded
+    every act of centering we’re listening
+    the economy
+    so sadistically dressed-up
+    as your ideal parents
+    exclamations many faces
+    I basically know everything
+    desperation I hummed the sound
+    blazing beauty cruised through
+    a sweet location fell on me
+    a falling winter on my face
+    rest made of sheep’s wool
+    one thought took me
+    neat
+    I mostly married poetry
+    check on me
+    be my parent’s voice
+    it happened not at work but of its scarcity
+    help me poetry
+    the way in this town people talk about work
+    
+                                                                              Published in Canal, 
+                                                                              Issue 2 (2021)
+</pre>
+<br><br>
+<strong>The Acephale Sonnets (excerpt)</strong>
+
+<pre>
+
+  1.	the sea unexpectedly parts as you greet it
+  2.	the face as Southend peer
+  3.	the face as the seals watching quietly at the end of the peer
+  4.	a face unexpectedly expels your body
+        the face as capital the face as I don’t care
+  5.	our happy faces (Dunya is pretending to be my dad 
+        she takes me out on a fun day to the arcades 
+        and I’m pretending to be her dad we do not know this at the time 
+        it is only on reflection as we drive to the cinema to watch the new matrix sequel 
+        after singing man I feel like a woman that we are reminded of our capacity to father each other)
+  6.	if a face comes over for dinner you feel happy as you have done the work
+  7.	the arcade is a place without faces only fun
+  8.	a face gets up in the morning &
+        it doesn’t get up! you know this!
+  9.	a face takes note of everything interested in it & blends into the background
+  10.	a face once loved once ate once bred
+  11.	a hairdresser ponders the incapacity of the face to fit the do
+  12.	your mother turns to you as a sunflower faces the sun
+  13.	what kind of sonnet does your lover write when your face is a wasteland?
+  14.	you accuse me of being of the generation that takes things seriously
+      <em>y a la vez </em>virtually 
 
 
+                                                                                Published in Deleuzine Anthology, 
+                                                                                Issue 2, She Dogs (2023)
+</pre>
+<br><br>
+</div>
+</div>
+
+    <div class="clearfix"></div>
+
+    <article class="text">
+    <blockquote>
+      <p><em>Rebecca’s poems come from a place of excitement. Not the peppy, enthusiastic kind. I mean exciting at an atomic level, electrons vibrating and knocking. Her poems often have to stop themselves, ‘hey’ or ‘no way’, ‘are you kidding me’. The poem is something hotwired, hijacked, it’s kind of like an action movie but the action is thought and feeling. As a reader you duck and cover and go along with it. You have to let yourself lose your sense of location at times and keep up but that’s just where the poems are, as moving objects. I like to focus on that feeling of movement, or of being moved when reading them, and in doing so I find I am moved, I find the poems moving.</em>
+      <br><br>—Jack Underwood</p>
+      </blockquote>
+    </article>
+
+
+    <div class = "container" align = "center">         
+      <div class = "header" align = "center">
+        <h1>TALKS, PERFORMANCES, RADIO</h1>
+      </div>
+    </div>
+
+    <div class = "container">
+      <div align = "left" class = "poems">
+  
+  <pre>A conversation with Madeleine Stack and Fer Boyd from Canal,</pre><strong><a href='https://radio.montezpress.com/#/show/2805'>Montez Press Radio.</a></strong>
+  <br><br>
+  <pre>A talk on vampires, the headlessman and the defaced sonnet,</pre><strong><a href='https://www.youtube.com/watch?v=HmEOHcy61VA&t=1485s'>Institute for Impossible Subjects.</a></strong>
+  <br><br>
+  <pre>A reading of The Procedure of a Feeling,</pre><strong><a href='https://www.instagram.com/reel/CAYdEWxHN0l3q1WsEvoJMeMuWs3varOiyoDRyw0/'>lockdown reading series, curated by Jack Underwood.</a></strong>
+  <br><br>
+  <pre>A reading</pre><strong><a href='https://www.bathmagg.com/rebeccaclose/'>Bath Magg.</a></strong>
+  <br><br>
+  <pre>A video-performance w/ Anyely Marín</pre><strong><a href='./video/exilio_tropical_2__llamando_al_mago (1080p).mp4'>Self-Care is Warfare, curated by Julia Morandeira.</a></strong>
+
+  
+
+</div>
+</div>
+
+
+    
+</body>
+
+
+<style>
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
