@@ -243,11 +243,12 @@
 
 @media (min-width: 480px) {
   .card_text {
-    overflow: thin;
+    overflow: auto;
     max-height: 20rem;
-    scrollbar-width: auto;
-    scrollbar-color: var(--blue);
+    scrollbar-width: thin;
+    scrollbar-color: var(--white) var(var(--blue));
   }
+
 
   .card_text::-webkit-scrollbar {
     width: 12px;
