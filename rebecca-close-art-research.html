@@ -194,15 +194,11 @@
   transition: transform 0.1s linear, box-shadow 0.2s;
 }
 
-.card_text:focus,
-.card:focus {
-  outline: 4px dashed var(--blue);
-}
-
 .card:focus,
 .card:hover {
   transform: scale(1.01);
   box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.2);
+  outline: 4px dashed var(--blue);
 }
 
 .card_content {
@@ -243,13 +239,12 @@
   margin-right: 0.05em;
 }
 
-
-@media (min-width: 480px) {
+  @media (min-width: 480px) {
   .card_text {
-    overflow: auto;
+    overflow: thin;
     max-height: 20rem;
-    scrollbar-width: thin;
-    scrollbar-color: var(--blue) var(var(--white));
+    scrollbar-width: auto;
+    scrollbar-color: var(--white) var(var(--blue);
   }
 
   .card_text::-webkit-scrollbar {
@@ -257,11 +252,11 @@
   }
 
   .card_text::-webkit-scrollbar-track {
-    background: var();
+    background: var(--white);
   }
 
   .card_text::-webkit-scrollbar-thumb {
-    background-color: var();
+    background-color: var(--blue);
   }
 }
 
