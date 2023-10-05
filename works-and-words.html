@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body style="background-image:url('./img/handTele-small.jpg'); background-size: 850px; background-repeat: repeat-y;">
+<body style="background-image:url('./img/handTele-small.jpg'); background-size: cover; ">
     <div align = "center">
       <nav class = "menu">
         <ul>
@@ -175,6 +175,11 @@ Frieze
 
 
 <style>  
+
+@media only screen and (max-width: 320px) {
+            body {
+                background-image:url('./img/handTele-small.jpg'); background-size: 320px;
+            }
 
 div.gallery {
   border: 1px solid #ccc;
