@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-	strokeWeight (50)
+	strokeWeight (100)
   stroke(255, 255, 255);
   {
     line(mouseX, mouseY, pmouseX, pmouseY);
