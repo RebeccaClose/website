@@ -1,14 +1,23 @@
 
+var canvas;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position (0,0);
+  canvas.style('z-index','-1');
   background(0, 0, 255);
 }
 
 function draw() {
-	strokeWeight (10)
+	strokeWeight (50)
   stroke(255, 255, 255);
   {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+
