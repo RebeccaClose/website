@@ -19,6 +19,16 @@
        url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff2'); /* Modern browsers */
 }
 
+@font-face {
+  font-family: "Playwrite";
+  font-weight: 300;
+  font-style: normal;
+  src: local(''),
+       url('../fonts/Playwrite/PlaywriteITModerna-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Playwrite/PlaywriteITModerna-Regular.ttf') format('woff'), /* Modern browsers */
+       url('../fonts/Playwrite/PlaywriteITModerna-Regular.ttf') format('woff2'); /* Modern browsers */
+}
+
 * {
   padding: 1;
   margin: 1;
