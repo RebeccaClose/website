@@ -47,7 +47,7 @@ li {
 
 ul li {
   display : inline-block;
-  margin : 20px;
+  margin : 10px;
 }
 
 ul li:hover { cursor : pointer; }
@@ -75,7 +75,7 @@ p {
   width : 550px;
   position : center;
   left : 40px;
-  top : 50px;
+  top : 30px;
 }
 
 .bio {
@@ -83,7 +83,7 @@ p {
   width : 550px;
   position : center;
   left : 40px;
-  top : 50px;
+  top : 30px;
 }
 
 .text2 {
@@ -91,7 +91,7 @@ p {
   width : 650px;
   position : center;
   left : 40px;
-  top : 50px;
+  top : 30px;
 }
 
 .poems {
